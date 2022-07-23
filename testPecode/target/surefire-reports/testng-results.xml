@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-22T17:45:45Z" name="Surefire suite" finished-at="2022-07-22T17:45:59Z" duration-ms="13833">
+    <groups>
+    </groups>
+    <test started-at="2022-07-22T17:45:45Z" name="Surefire test" finished-at="2022-07-22T17:45:59Z" duration-ms="13833">
+      <class name="test.BaseTest">
+        <test-method is-config="true" signature="profileSetUp()[pri:0, instance:test.BaseTest@1b9c1b51]" started-at="2022-07-22T17:45:45Z" name="profileSetUp" finished-at="2022-07-22T17:45:46Z" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileSetUp -->
+      </class> <!-- test.BaseTest -->
+      <class name="test.SignInTest">
+        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:test.SignInTest@2e52fb3e]" started-at="2022-07-22T17:45:46Z" name="testsSetUp" finished-at="2022-07-22T17:45:49Z" duration-ms="3461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsSetUp -->
+        <test-method signature="userSentInvalidLoginAndInvalidPasswordAndErrorMessage()[pri:1, instance:test.SignInTest@2e52fb3e]" started-at="2022-07-22T17:45:50Z" name="userSentInvalidLoginAndInvalidPasswordAndErrorMessage" finished-at="2022-07-22T17:45:51Z" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSentInvalidLoginAndInvalidPasswordAndErrorMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.SignInTest@2e52fb3e]" started-at="2022-07-22T17:45:51Z" name="tearDown" finished-at="2022-07-22T17:45:51Z" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:test.SignInTest@2e52fb3e]" started-at="2022-07-22T17:45:51Z" name="testsSetUp" finished-at="2022-07-22T17:45:53Z" duration-ms="2003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsSetUp -->
+        <test-method signature="userSentValidLoginAndInvalidPasswordAndErrorMessage()[pri:2, instance:test.SignInTest@2e52fb3e]" started-at="2022-07-22T17:45:53Z" name="userSentValidLoginAndInvalidPasswordAndErrorMessage" finished-at="2022-07-22T17:45:53Z" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSentValidLoginAndInvalidPasswordAndErrorMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.SignInTest@2e52fb3e]" started-at="2022-07-22T17:45:54Z" name="tearDown" finished-at="2022-07-22T17:45:54Z" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:test.SignInTest@2e52fb3e]" started-at="2022-07-22T17:45:54Z" name="testsSetUp" finished-at="2022-07-22T17:45:56Z" duration-ms="1964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsSetUp -->
+        <test-method signature="userSentLoginButNotSentPassword()[pri:3, instance:test.SignInTest@2e52fb3e]" started-at="2022-07-22T17:45:56Z" name="userSentLoginButNotSentPassword" finished-at="2022-07-22T17:45:56Z" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSentLoginButNotSentPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.SignInTest@2e52fb3e]" started-at="2022-07-22T17:45:56Z" name="tearDown" finished-at="2022-07-22T17:45:56Z" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="testsSetUp()[pri:0, instance:test.SignInTest@2e52fb3e]" started-at="2022-07-22T17:45:56Z" name="testsSetUp" finished-at="2022-07-22T17:45:58Z" duration-ms="2161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsSetUp -->
+        <test-method signature="userSentPasswordButNotSentLogin()[pri:4, instance:test.SignInTest@2e52fb3e]" started-at="2022-07-22T17:45:58Z" name="userSentPasswordButNotSentLogin" finished-at="2022-07-22T17:45:59Z" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSentPasswordButNotSentLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.SignInTest@2e52fb3e]" started-at="2022-07-22T17:45:59Z" name="tearDown" finished-at="2022-07-22T17:45:59Z" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.SignInTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

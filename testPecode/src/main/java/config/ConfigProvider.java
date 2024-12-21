@@ -14,4 +14,5 @@ public interface ConfigProvider {
     String LOGIN = readConfig().getString("user.login");
     String PASSWORD = readConfig().getString("user.password");
 //    check git
+//    check git second part
 }
